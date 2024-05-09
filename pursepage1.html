@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="image/NEXTAG__2_-removebg-preview.png" type="image/icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<script src="jquery-3.6.3.js"></script>
+<title>Purses And Wallets</title>
+</head>
+<body  style="background-color: rgba(0, 0, 0, 0.915);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase sticky-lg-top">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand" style="position: relative; padding: 0%;">
+            <img src="image/NEXTAG__2_-removebg-preview.png"  alt="" style="width: 65px;">
+           </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold link4 me-4" aria-current="page" href="web.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold link4 me-4" aria-current="page" href="about us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold link4 me-4" aria-current="page" href="contactpage.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle link4 me-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item fw-bold" href="">Women Purses</a></li>
+                  <li><a class="dropdown-item fw-bold" href="walletpage1.html">Men Wallets</a></li>
+                  <li><a class="dropdown-item fw-bold" href="brandsection.html">Louis Vuitton</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="container">
+<div class="row ">
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-4" >
+        <div class="card" style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse2.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+             <!-- Button trigger modal -->
+         <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Show Price
+         </button>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog " style="width: 27em;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+          <img src="image/purse2.png" alt="" class="img-fluid card-img-top">
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <h4 id="price"></h4>
+          <button class="btn btn-primary me-auto fs-5" > Price</button>
+          <button type="button" class="btn btn-secondary fs-5" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+    <!-- Modal -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function(){
+    
+          $("button").click(function(){
+              $("#price").fadeToggle("")
+              $("#price").html("Rs: 7500 ");       
+          });
+    
+      });
+    </script>
+    
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-4" >
+        <div class="card  " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse3.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+               Show Price
+           </button>
+
+          </div>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse3.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price1"></h4>
+                  <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function(){
+    
+          $("button").click(function(){
+              $("#price1").fadeToggle();
+              $("#price1").html("Rs: 3500");
+          });
+    
+      });
+    </script>
+    
+
+
+
+
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-4" >
+        <div class="card  " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse4.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal2" >
+             Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse4.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price2"></h4>
+                  <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function(){
+    
+          $("button").click(function(){
+              $("#price2").fadeToggle();
+              $("#price2").html("Rs: 9500");       
+          });
+    
+      });
+    </script>
+    
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-4" >
+        <div class="card  " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse5.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal3" >
+             Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse5.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+              
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price3"></h4>
+                  <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price3").fadeToggle();
+          $("#price3").html("Rs: 3500");       
+      });
+
+  });
+</script>
+
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse6.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal4" >
+               Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse6.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price4"></h4>
+                  <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price4").fadeToggle();
+          $("#price4").html("Rs: 4000 ");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse7.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal5" >
+              Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse7.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price5"></h4>
+                  <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price5").fadeToggle();
+          $("#price5").html("Rs: 5000 ");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse8.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal6" >
+              Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse8.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price6"></h4>
+          <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price6").fadeToggle();
+          $("#price6").html("Rs: 6500 ");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse9.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal7" >
+              Show Price
+           </button>
+          </div>
+            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog"  style="width: 27em;">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="image/purse9.png" alt="" class="img-fluid card-img-top">
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                      <h4 id="price7"></h4>
+                      <button class="btn btn-primary me-auto fs-5"> Price</button>
+                      <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+          
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price7").fadeToggle();
+          $("#price7").html("Rs: 6000");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse10.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal8" >
+              Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse10.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price8"></h4>
+                  <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price8").fadeToggle();
+          $("#price8").html("Rs: 3500 ");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card  " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse11.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+              Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse11.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price9"></h4>
+                  <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price9").fadeToggle();
+          $("#price9").html("Rs: 8500");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+              <img src="image/purse12.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal10" >
+               Show Price
+          </button>
+          </div>
+          <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse12.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price10"></h4>
+          <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price10").fadeToggle();
+          $("#price10").html("Rs: 2200");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+               <img src="image/purse13.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal11" >
+              Show Price
+          </button>
+          </div>
+        <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content" >
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse13.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price11"></h4>
+          <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price11").fadeToggle();
+          $("#price11").html("Rs: 4500");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+               <img src="image/purse14.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal12" >
+              Show Price
+          </button>
+          </div>
+        <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse14.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price12"></h4>
+          <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price12").fadeToggle();
+          $("#price12").html("Rs: 2500");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+               <img src="image/purse15.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal13" >
+             Show Price
+          </button>
+          </div>
+        <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse15.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price13"></h4>
+                  <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price13").fadeToggle();
+          $("#price13").html("Rs: 7000 ");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+               <img src="image/purse16.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal14" >
+               Show Price
+          </button>
+          </div>
+        <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse16.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price14"></h4>
+          <button class="btn btn-primary me-auto fs-5">Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price14").fadeToggle();
+          $("#price14").html("Rs: 4000 ");       
+      });
+
+  });
+</script>
+
+    <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="card " style="position: relative; box-shadow: 10px 8px 20px rgba(0,0,0,0.8) ;border-radius: 10px; border: black; ">
+            <div class="img-container">
+               <img src="image/purse17.png" alt="" class="img-fluid card-img-top" style="border-radius: 10px;">
+            </div>
+            <button type="button" class="btn btn-secondary w-75 m-1" style="border-radius: 18px; text-align: center; align-self: center;" data-bs-toggle="modal" data-bs-target="#exampleModal15" >
+               Show Price
+          </button>
+          </div>
+        <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"  style="width: 27em;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">WOMEN PURSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="image/purse17.png" alt="" class="img-fluid card-img-top">
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <h4 id="price15"></h4>
+                  <button class="btn btn-primary me-auto fs-5"> Price</button>
+                  <button type="button" class="btn btn-secondary fs-5"  data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </div>
+    
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+      $("button").click(function(){
+          $("#price15").fadeToggle();
+          $("#price15").html("Rs: 5000");       
+      });
+
+  });
+</script>
+ <!-- FOOTER START ************************************************************** -->
+ <div class="mt-5 container-fluid" style="color: white; background-color: #232323 ;" >
+  <div class="row" >
+    <div class="col-md-4 text-center" >
+       <div class=" mt-4 fw-bolder " style="font-size: x-large;"> INFORMATION  </div> 
+       <div class=" mt-3 "  style="color: rgb(207, 201, 201) ;">
+          Store Timings: Mon-Sat | 12 - 9 pm
+       </div>
+       <div class=" mt-2 "  style="color: rgb(207, 201, 201) ;">
+          Address:  Aptech,Karachi .
+       </div>
+        <div class="mt-2" ></div>
+        <a href="contactpage.html" class="text-decoration-none"  style="color: rgb(207, 201, 201);"> Our Store Location</a>
+    </div>
+
+    <div class="col-md-4 text-center">
+        <ul  class="list-unstyled">
+          <div class="fw-bolder mt-4 " style="font-size: x-large;" > <a href="about us.html" class="text-decoration-none text-light">ABOUT US</a>  </div>
+            <li class="mb-2 mt-3 "> <a href="walletpage1.html" class="text-decoration-none" style="color: rgb(207, 201, 201) ;" > Men Wallets </a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none"  style="color: rgb(207, 201, 201);"> Women Purses </a></li>
+            <li class="mb-2"><a href="brandsection.html" class="text-decoration-none"  style="color: rgb(207, 201, 201);"> Louis Vuitton</a></li>
+         </ul>
+     </div>
+
+      <div class="col-md-4 text-center" >
+        <div class="fw-bolder mt-4 " style="font-size: x-large;" > <a href="contactpage.html" class="text-decoration-none text-light">CONTACT US</a> </div>
+        <div class="mt-3 ">
+          <ul class="list-unstyled" style="color: rgb(207, 201, 201) ;">
+            <li class="mb-2">
+                Whatsapp: +92-210000000 
+            </li>
+            <li class="mb-2">
+                Phone: 0321-0000000
+            </li>
+            <li class="mb-2" >
+               Email:  sheharyarahmed700@gmail.com
+            </li>
+          </ul>
+         
+        </div>
+    </div> 
+    <hr style="height:2px;margin-top: 1em;">
+    <div class="text-center mb-3" style="font-size: xx-large;">
+      <a class="text-decoration-none" href="https://www.facebook.com/" style="color: white;">
+        <i class="bi bi-facebook m-2" ></i> 
+      </a>
+      <a class="text-decoration-none" href="https://www.instagram.com/" style="color: white;">
+        <i class="bi bi-instagram m-2"></i>
+      </a>
+      <a class="text-decoration-none" href="https://www.whatsapp.com/" style="color: white;">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <a class="text-decoration-none" href="https://twitter.com/?lang=en" style="color: white;">
+      <i class="bi bi-twitter m-2"  ></i>
+  </a>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
